@@ -5,8 +5,8 @@ default: &default
 
 development:
   <<: *default
-  database: kp_dev
+  database: blog_dev
 
 test:
   <<: *default
-  database: kp_test
+  database: blog_test
